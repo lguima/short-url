@@ -1,0 +1,19 @@
+POST http://localhost:3333/urls
+Content-Type: application/json
+
+{
+  "code": "yahoo",
+  "url": "https://www.yahoo.com"
+}
+
+###
+
+GET http://localhost:3333/urls
+
+###
+
+GET http://localhost:3333/google
+
+###
+
+GET http://localhost:3333/metrics/redirects
